@@ -1,0 +1,46 @@
+Data type(məlumat növü)proqram içində istifadə ediləcək dəyişən,sabit,funksiya adları kimi tanımlayıcıların tipini,yəni yaddaşında ayrılacaq bölgənin böyüklüyünü təyin etmək üçün istifadə edilir.
+Bir proqramçının proqramlaşdırma dilində ilk olaraq öyrənməsi lazım olan,o dilə aid olan məlumatların tipləridir.
+ 1)Dəyişən kompyuterin müvəqqəti yaddaşında məlumatın saxlandığı gözlərə verilən müvəqqəti addır.Bir c proqramında bir dəyişən tanımlandığında bu dəyişən üçün yaddaşda bir yer ayrılır.
+Hər dəyişənin tutduğu dəyərin necə bir məlumat olduğunu gösteren bir verilənlər tipi vardır. 
+Dəyişən adları verərkən bəzi qaydalara uyğun gəlməsi zəruridir.Bunlar:
+ 1.Dəyişən adları ən çox 32 simvoldan ibarət ola bilər.
+ 2.Dəyişən adları ingilis əlifbasında olan xarakterlər (A-Z) və ya (a-z) yada rəqəmlər (0-9) ilə yazılmalıdır.
+ 3.Dəyişən adları hər hansı bir rəqəmlə başlaya bilməz,ilk xarakter bir hərf olmalıdır.
+ 
+ 2)Məlumat növlərinə bunlar aiddir:
+ "byte" "int" "short" "long" "float" "double" "char" "bool" "object" "string" "decimal"
+ 
+Byte məlumat növü integer ilə bənzər bir quruluşa malikdir və yalnız tam rəqəmləri əhatə edir.
+Byte məlumat növü mənfi bir rəqəm ala bilməz(rəqəm aralığı 0-255).
+Bu məlumat növü yaddaşda cox az yer tutur.(1 bayt) 
+İnteger məlumat növündən rəqəmsal ifadələr üçün istifadə edilir.Bu məlumat növü onluq və ya kəsr olan ədələri qəbul etmir.
+Dəyər aralığı: -2147483648 ilə +2147483647 dir.Yaddaşda tutduğu yer 4 baytdır.
+Char məlumat növü character(xarakter) sözünün qısaldılmış formasıdır.Sadəcə tək dırnaq icərisində yazilmalidi.
+Adından da məlum olduğu kimi dırnaq icərisinə yalnız bir xarakter,herf ve ya reqem yazila bilər.
+String məlumat növü mətn ifadələr üçün istifadə olunurş
+Ümumiyyətlə uzun mətnlər,cümlələr və ya müəyyən bir şərh etmək istədiyimizdə seçəcəyimiz məlumatların tipli string növündən olmalıdır.
+String hər zaman cüt dırnaqlar içərisində göstərilir. 
+Bool məlumat növü riyazi məntiqin qurucusu sayılan George Boole-un adından götürülmüşdü.
+Bu məlumat növü yalnız iki dəyər alır:
+False(səhv) 
+True(doğru)
+Bütün proqramlaşdırma dillərində Bool məlumat növü çox əhəmiyyət daşıyır.
+
+ 3)Proqramlaşdırma dillərində tək halda hər hansı bir mənası olmayan ancaq proqramın işləməsində iştirak edən xarakter və ya xarakter birliklərinə operator deyilir.
+Riyazi operatora aid olan xarakterlər bunlardır:
++, -, / və * %
+Riyazi ifadələr hesablanərkən izlənən ardıcıllıq belə olur:
+
+əvvəl mötərzə hesablanır sonra vurma,bölmə,faiz və sonda cıxma əməliyyatı.
+Bu operatorlar arasıdakı ferqli xüsusiyyətlər fərqli xarakterlərdən istifadə olunmasıdı.
+Məsələn hesablama sonu əldə edilən nəticənin müxtəlif xarakterlərdə göstərilməsi kimi. 
+ 4)Üç ədəd məntiq operatoru var.Bunlar:
+&&(və),!(deyil),||(və ya)
+
+||(və ya) operatoru iki dəyərdən biri doğru isə doğru,ikisidə sehvdirsə səhv dəyərini qaytarır.
+&&(və) operatoru iki dəyərin ikisidə doğru isə doğru,ən azı bir səhv isə səhv dəyərini qaytarır.
+!(deyil) operatoru isə ters dəyəri qaytarır.
+ 5)Proqramlaşdırma dillərinin hamısında budaqlanma yaradan xüsusi operatorlar vardır.
+ Belə operatorlara şərt operatorları deyilir.
+ İF,switch-şərt operatorlarıdır.
+ 
